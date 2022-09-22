@@ -1,9 +1,9 @@
 const express = require("express");
 const cors = require('cors')
 const bodyParser = require("body-parser");
-const UsuarioRoutes = require("./src/routes/v1/UsuarioRouter");
-const CotacaoRoutes = require("./src/routes/v1/CotacaoRouter");
-const AutenticacaoRoutes = require("./src/routes/v1/AutenticacaoRouter");
+const UsuarioRoutes = require("./src/routes/v1/UserRouter");
+const CotacaoRoutes = require("./src/routes/v1/CotationRouter");
+const AutenticacaoRoutes = require("./src/routes/v1/AuthRouter");
 const app = express();
 
 const options = {
