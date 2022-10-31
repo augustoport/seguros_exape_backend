@@ -8,7 +8,6 @@ const http = require('http');
 const port = 3000;
 
 
-
-app.listen(port, () =>{
+app.listen(port, () => {
     console.log(`Server listening on port ${port}`);
 });
